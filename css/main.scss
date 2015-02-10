@@ -1,0 +1,90 @@
+---
+---
+// font-faces
+@import "fonts";
+
+// Core variables and mixins
+@import "variables";
+@import "bootstrap/variables";
+@import "bootstrap/mixins";
+
+// Reset and dependencies
+@import "bootstrap/normalize";
+@import "bootstrap/print";
+
+// Core CSS
+@import "bootstrap/scaffolding";
+@import "bootstrap/type";
+@import "bootstrap/code";
+@import "bootstrap/grid";
+@import "bootstrap/forms";
+
+// Components
+@import "bootstrap/component-animations";
+@import "bootstrap/navs";
+@import "bootstrap/navbar";
+@import "bootstrap/thumbnails";
+@import "bootstrap/responsive-embed";
+
+// Utility classes
+@import "bootstrap/utilities";
+@import "bootstrap/responsive-utilities";
+
+h1,h2,h3,h4 {
+    text-align: center;
+}
+
+.navbar-nav > li > a:hover,.navbar-nav > li > a:focus {
+    background-color: $brand-primary;
+    color: #000;
+}
+
+.btn {
+    box-shadow: 0px 1px 2px rgba(0,0,0,0.4);
+    border: 1px solid #bbb;
+    border-radius:5px;
+    font-size: 20px;
+    margin: 1em 1em 0 1em;
+    padding: .3em 3em;
+    color: $gray-dark;
+    width: 300px;
+    display: inline-block;
+
+    :hover {
+        box-shadow:  0px 2px 6px rgba(0,0,0,0.3);
+        background-color: inherit;
+    }
+
+    :active {
+        box-shadow:  0px 0px 0px rgba(0,0,0,0.1);
+        background-color: inherit;
+    }
+}
+
+#home-intro {
+
+    .pichak-logo {
+        line-height: 0.3;
+        text-align: center;
+        margin: 4em 0 0.5px 0;
+
+        h1 {
+           font-weight: bold;
+
+        }
+
+        h2 {
+            padding-top: 0.5em;
+            font-size: floor(($font-size-base * 1))
+        }
+    }
+
+    article {
+        margin: 2.5em 0 5em 0em;
+
+        p {
+            color: #gray-dark;
+            padding: 0.5em 0 .5em 0;
+        }
+    }
+}

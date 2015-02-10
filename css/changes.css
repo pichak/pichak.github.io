@@ -1,0 +1,243 @@
+/* ==========================================================================
+   Base
+   ========================================================================== */
+
+header.lined-header{
+    position: relative;
+    margin: 0px 0 2em 0;
+    padding: 3em 0 3em 0;
+}
+header.lined-header h1{
+    display: inline-block;
+    margin: 0;
+    background-color: #fff;
+    padding: 0 10px;
+    font-style: italic;
+    font-family: inherit;
+}
+header.lined-header::after{
+    border-bottom: 1px solid #DDD;
+    content: " ";
+    display: block;
+    position: absolute;
+    width: 100%;
+    top: 50%;
+    z-index: -1;
+}
+
+#workspace{
+    padding: 3em 0;
+    margin: 0 auto;
+}
+
+i[class^="ico-"]{
+    display: inline-block;
+    height: 133px;
+    width: 133px;
+    background: transparent url("/../img/icon.svg") no-repeat 0 0;
+}
+
+/* ==========================================================================
+   Header
+   ========================================================================== */
+
+#head>.container{
+    border-bottom: 1px solid #ccc;
+    margin-top: 70px;
+}
+#head h1{
+    margin: 0;
+    padding: 0;
+}
+.navbar-brand {
+    font-size: 0.7em;
+    font-weight: normal;
+}
+#head h1 a{
+    color: #D1D1D1;
+}
+
+/* ==========================================================================
+   Sections
+   ========================================================================== */
+
+.home section>.container{
+    border-top: 1px solid #DDD;
+}
+
+#home-products .container{
+    padding: 2em 0 3em 0;
+}
+
+#home-products .container h1{
+    color: rgba(0,0,0,0.54);
+}
+
+#apps{
+    margin-top: 2em;
+}
+
+.container.no-top-border{
+    border-top: none !important;
+}
+
+#home-people .container{
+    padding: 2em 0 3em 0;
+    text-align: center;
+}
+
+div.positions{
+    display: inline-block;
+    text-align: center;
+    width: 160px;
+    height: 200px;
+}
+.positions h2{
+    font-size: 0.6em;
+    margin: 10px 0 0 0;
+}
+.positions a{
+    color: inherit;
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+}
+
+section.position{
+    display: none;
+}
+section.position .container{
+    border-top: none;
+}
+.position-apply{
+    text-align: center;
+}
+.position-apply p{
+    font-size: 0.7em;
+}
+.position-apply .btn{
+    min-width: 300px;
+}
+.position h2{
+    font-family: 'Noto Serif',serif;
+    font-size: 1.1em;
+    font-style: italic;
+    color: rgba(0,0,0,0.54);
+}
+.position-apply h3{
+    font-family: 'Noto Serif',serif;
+    padding: 2em 0 3em 0;
+    font-size: 1.1em;
+    line-height: 1.4em;
+}
+.position ul > li{
+    color: rgba(0,0,0,0.54);
+    font-size: 1em;
+    line-height: 1.8em;
+    padding-bottom: .8em;
+}
+
+
+i.ico-jobs{
+    background-position: -424px -143px;
+}
+
+
+i.ico-position-marketingleader{
+    background-position: -424px -143px;
+}
+i.ico-position-android{
+    background-position: -284px -143px;
+}
+i.ico-position-designer{
+    background-position: -144px -143px;
+}
+i.ico-position-web{
+    background-position: -3px -145px;
+}
+i.ico-position-crm{
+    background-position: -3px -424px;
+}
+i.ico-position-devops{
+    background-position: -143px -424px;
+}
+i.ico-position-copywriter{
+    background-position: -285px -424px;
+}
+i.ico-position-onlinemarketer{
+    background-position: -423px -424px;
+}
+
+
+a:hover i.ico-position-marketingleader, a.selected i.ico-position-marketingleader{
+    background-position: -424px -3px;
+}
+a:hover i.ico-position-android, a.selected i.ico-position-android{
+    background-position: -284px -3px;
+}
+a:hover i.ico-position-designer, a.selected i.ico-position-designer{
+    background-position: -144px -3px;
+}
+a:hover i.ico-position-web, a.selected i.ico-position-web{
+    background-position: -3px -4px;
+}
+a:hover i.ico-position-crm, a.selected i.ico-position-crm{
+    background-position: -3px -284px;
+}
+a:hover i.ico-position-devops, a.selected i.ico-position-devops{
+    background-position: -143px -284px;
+}
+a:hover i.ico-position-copywriter, a.selected i.ico-position-copywriter{
+    background-position: -285px -284px;
+}
+a:hover i.ico-position-onlinemarketer, a.selected i.ico-position-onlinemarketer{
+    background-position: -423px -284px;
+}
+
+
+
+div.people{
+    display: inline-block;
+    width: 280px;
+    height: 390px;
+    vertical-align: top;
+}
+div.people img{
+    width: 200px;
+    height: 200px;
+    margin-left: 40px;
+    margin-right: 40px;
+    float: left;
+}
+div.people h1{
+    float: left;
+    width: 100%;
+}
+div.people div.you{
+    width: 200px;
+    height: 200px;
+    margin-left: 40px;
+    float: left;
+    border: 1px solid #9E9E9E;
+    border-radius: 100px;
+}
+
+.appicon{
+    margin: 0 auto;
+    width: 200px;
+    display: block;
+}
+
+
+/* ==========================================================================
+   Footer
+   ========================================================================== */
+#footer{
+    color: #DDD;
+    text-align: center;
+    font-size: 0.666em;
+    padding-top: 3em;
+}
+#footer .border-top{
+    border-top: 1px solid #DDD;
+}

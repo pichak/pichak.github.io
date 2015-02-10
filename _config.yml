@@ -1,0 +1,41 @@
+safe:    true
+lsi:     false
+baseurl: /
+url:     http://pichak.co
+
+source:      .
+destination: ./_site
+plugins:     ./_plugins
+
+future:   true
+
+exclude: [Makefile, Gemfile, Gemfile.lock, LICENSE,"pichak.sublime-project","pichak.sublime-workspace","bootstrap-sass"]
+
+defaults:
+  -
+    scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "web"
+      author: "Morteza Milani"
+
+navigation:
+- title: About
+  url:   /
+  alt: "About Pichak Co."
+- title: Products
+  url:   /products
+  alt: "See our products"
+- title: People
+  url: /people
+  alt: ""
+- title: Jobs
+  url: /jobs
+  alt: ""
+- title: Contact
+  url: /contact
+  alt: ""
+
+gems:
+- bootstrap-sass

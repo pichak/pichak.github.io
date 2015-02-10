@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="202px" height="202px" viewBox="0 0 202 202" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.2.2 (9983) - http://www.bohemiancoding.com/sketch -->
+    <title>prdct - App.js</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="About" sketch:type="MSArtboardGroup" transform="translate(-337.000000, -1311.000000)">
+            <g id="prdct---App.js" sketch:type="MSLayerGroup" transform="translate(338.000000, 1312.000000)">
+                <path d="M130.271667,0 C150.35,0 160.386667,0 171.195,3.41666667 C182.995,7.71166667 192.288333,17.005 196.583333,28.805 C200,39.6116667 200,49.6516667 200,69.7283333 L200,130.271667 C200,150.35 200,160.386667 196.583333,171.195 C192.288333,182.995 182.995,192.288333 171.195,196.581667 C160.386667,200 150.35,200 130.271667,200 L69.7283333,200 C49.65,200 39.6116667,200 28.805,196.581667 C17.005,192.288333 7.71166667,182.995 3.41666667,171.195 C0,160.386667 0,150.35 0,130.271667 L0,69.7283333 C0,49.6516667 0,39.6116667 3.41666667,28.805 C7.71166667,17.005 17.005,7.71166667 28.805,3.41666667 C39.6116667,0 49.65,0 69.7283333,0 L130.271667,0 Z" id="Icon-Shape" stroke="#979797" stroke-width="2" sketch:type="MSShapeGroup"></path>
+                <path d="M116.887495,116.678481 L152,116.678481 L152,34.4 L48,34.4 L48,116.678481 L83.1125046,116.678481 L100,138.4 L116.887495,116.678481 L116.887495,116.678481 Z" id="Rectangle-3" stroke="#AAAAAA" stroke-width="3" sketch:type="MSShapeGroup"></path>
+                <rect id="Rectangle-4" stroke="#AAAAAA" stroke-width="3" sketch:type="MSShapeGroup" x="48" y="139.2" width="104" height="26.4"></rect>
+            </g>
+        </g>
+    </g>
+</svg>
