@@ -119,3 +119,15 @@ div.people{
         border-radius: 100px;
     }
 }
+
+div.people-header {
+    text-align:center;
+    margin-top:2em;
+
+    .people-img {
+        overflow:hidden;
+        width: 20em;
+        height: 12.5em;
+        border:1px solid $gray-dark;
+    }
+}

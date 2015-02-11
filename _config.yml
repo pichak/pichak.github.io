@@ -34,7 +34,7 @@ navigation:
   url: /jobs
   alt: ""
 - title: Contact
-  url: /contact
+  url: mailto:jobs@pichak.co
   alt: ""
 
 people:
