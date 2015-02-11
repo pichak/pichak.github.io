@@ -37,5 +37,25 @@ navigation:
   url: /contact
   alt: ""
 
+people:
+- title: aghdasi
+- title: arabi
+- title: ashrafian
+- title: attarzadeh
+- title: azad
+- title: arash
+- title: ehsanfar
+- title: gheysar
+- title: khodabandeh
+- title: maleki
+- title: milani
+- title: nourian
+- title: pourhadi
+- title: ramezanpour
+- title: rezazadeh
+- title: saati
+- title: sabzali
+- title: sabaghian
+
 gems:
 - bootstrap-sass
