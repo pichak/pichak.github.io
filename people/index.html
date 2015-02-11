@@ -25,61 +25,12 @@
     <div class="container">
         <div class="row">
             <div class="col-md-offset-1 col-md-10 text-center">
-              <h1>Meet the team that makes Pichak, the Pichak now!</h1>
+                <h1>Meet the team that makes Pichak, the Pichak now!</h1>
+                {% for p in site.people %}
                 <div class="people">
-                    <img src="img/people/Aghdasi-Hasan.png" alt="Hasan Aghdasi"><h3>Hasan Aghdasi</h3>
+                    <img src="/img/people/{{p.title | downcase | replace: ' ','-'}}.png"><h3>{{p.title}}</h3>
                 </div>
-                <div class="people">
-                    <img src="img/people/Arabi-Alireza.png" alt="Alireza Arabi"><h3>Alireza Arabi</h3>
-                </div>
-                <div class="people">
-                    <img src="img/people/Ashrafian-Vahid.png" alt="Vahid Ashrafian"><h3>Vahid Ashrafian</h3>
-                </div>
-                <div class="people">
-                    <img src="img/people/Atarzadeh-Faeze.png" alt="Faeze Atarzadeh"><h3>Faeze Atarzadeh</h3>
-                </div>
-                <div class="people">
-                    <img src="img/people/Azad-Mojtaba.png" alt="Mojtaba Azad"><h3>Mojtaba Azad</h3>
-                </div>
-                <div class="people">
-                    <img src="img/people/Arash-Badimodiri.png" alt="Badimodiri Arash"><h3>Arash Badimodiri</h3>
-                </div>
-                <div class="people">
-                    <img src="img/people/Ehsanfar-Ali.png" alt="Ali Ehsanfar"><h3>Ali Ehsanfar</h3>
-                </div>
-                <div class="people">
-                    <img src="img/people/Gheysar-Sepideh.png" alt="Sepideh Gheysar"><h3>Sepideh Gheysar</h3>
-                </div>
-                <div class="people">
-                    <img src="img/people/Khodabande-Mojtaba.png" alt="Mojtaba Khodabande"><h3>Mojtaba Khodabande</h3>
-                </div>
-                <div class="people">
-                    <img src="img/people/Maleki-Kimia.png" alt="Kimia Maleki"><h3>Kimia Maleki</h3>
-                </div>
-                <div class="people">
-                    <img src="img/people/Milani-Morteza.png" alt="Morteza Milani"><h3>Morteza Milani</h3>
-                </div>
-                <div class="people">
-                    <img src="img/people/Norian-Amir.png" alt="Amir Norian"><h3>Amir Norian</h3>
-                </div>
-                <div class="people">
-                    <img src="img/people/Pourhadi-Ali.png" alt="Ali Pourhadi"><h3>Ali Pourhadi</h3>
-                </div>
-                <div class="people">
-                    <img src="img/people/Ramezanpour-MM.png" alt="Mohammad M Ramezanpour"><h3>Mohammad M. Ramezanpour</h3>
-                </div>
-                <div class="people">
-                    <img src="img/people/Rezazadeh-Hamid.png" alt="Hamid Rezazadeh"><h3>Hamid Rezazadeh</h3>
-                </div>
-                <div class="people">
-                    <img src="img/people/Saati-Sadegh.png" alt="Sadegh Saati"><h3>Sadegh Sa'ati</h3>
-                </div>
-                <div class="people">
-                    <img src="img/people/Sabzali-Shadi.png" alt="Shadi Sabzali"><h3>Shadi Sabzali</h3>
-                </div>
-                <div class="people">
-                    <img src="img/people/Sabaghian-amir.png" alt="Amir Sabaghian"><h3>Amir Sabaghian</h3>
-                </div>
+                {% endfor %}
                 <div class="people">
                     <div class="you"></div><h3>You!</h3>
                 </div>
@@ -87,9 +38,7 @@
         </div>
         <div class="row">
             <div class="col-md-12 text-center">
-                <br><br><br>
                 <a class="btn btn-default" href="/jobs">Join Pichak Team</a>
-                <br><br><br><br><br><br>
             </div>
         </div>
     </div>

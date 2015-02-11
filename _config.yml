@@ -38,24 +38,24 @@ navigation:
   alt: ""
 
 people:
-- title: aghdasi
-- title: arabi
-- title: ashrafian
-- title: attarzadeh
-- title: azad
-- title: arash
-- title: ehsanfar
-- title: gheysar
-- title: khodabandeh
-- title: maleki
-- title: milani
-- title: nourian
-- title: pourhadi
-- title: ramezanpour
-- title: rezazadeh
-- title: saati
-- title: sabzali
-- title: sabaghian
+- title: Hasan Aghdasi
+- title: Alireza Arabi
+- title: Vahid Ashrafian
+- title: Faezeh Attarzadeh
+- title: Mojtaba Azad
+- title: Arash Badimodiri
+- title: Ali Ehsanfar
+- title: Sepideh Gheysar
+- title: Mojtaba Khodabandeh
+- title: Kimia Maleki
+- title: Morteza Milani
+- title: Amir Nourian
+- title: Ali Pourhadi
+- title: Mohammad M. Ramezanpour
+- title: Hamid Rezazadeh
+- title: Sadegh Saati
+- title: Shadi Sabzali
+- title: Amir Sabaghian
 
 gems:
 - bootstrap-sass

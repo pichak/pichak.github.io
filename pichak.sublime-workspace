@@ -147,14 +147,6 @@
 	},
 	"buffers":
 	[
-		{
-			"file": "index.html",
-			"settings":
-			{
-				"buffer_size": 6839,
-				"line_ending": "Unix"
-			}
-		}
 	],
 	"build_system": "",
 	"command_palette":
@@ -167,7 +159,13 @@
 	},
 	"console":
 	{
-		"height": 0.0
+		"height": 0.0,
+		"history":
+		[
+			"regions = self.view.sel()",
+			"clean",
+			"clear"
+		]
 	},
 	"distraction_free":
 	{
@@ -178,8 +176,13 @@
 		"side_bar_visible": false,
 		"status_bar_visible": false
 	},
+	"expanded_folders":
+	[
+		"/Users/morteza/Repos/pichak.github.io"
+	],
 	"file_history":
 	[
+		"/data/work/ivysoft/pichak.github.io/index.html",
 		"/Users/morteza/Desktop/fc/6m-list.txt",
 		"/Users/morteza/Repos/keyboard-ios/custom-keyboard/Views/Keyboard.m",
 		"/Users/morteza/Repos/keyboard-ios/custom-keyboard/Keyboards/Arabic-iPad.xib",
@@ -306,8 +309,7 @@
 		"/Users/morteza/Desktop/test.html",
 		"/Users/morteza/Repos/gobrowse/gobrowse.txt",
 		"/Users/morteza/Repos/gobrowse/patch",
-		"/Users/morteza/Repos/gobrowse/Podfile.lock",
-		"/Users/morteza/Repos/gobrowse/Pod"
+		"/Users/morteza/Repos/gobrowse/Podfile.lock"
 	],
 	"find":
 	{
@@ -498,37 +500,8 @@
 	"groups":
 	[
 		{
-			"selected": 0,
 			"sheets":
 			[
-				{
-					"buffer": 0,
-					"file": "index.html",
-					"settings":
-					{
-						"buffer_size": 6839,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/HTML/HTML.tmLanguage",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				}
 			]
 		}
 	],
@@ -563,6 +536,11 @@
 		]
 	},
 	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"project": "pichak.sublime-project",
 	"replace":
 	{
 		"height": 64.0
@@ -584,10 +562,25 @@
 		],
 		"width": 0.0
 	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
 	"show_minimap": true,
 	"show_open_files": false,
 	"show_tabs": true,
 	"side_bar_visible": true,
 	"side_bar_width": 150.0,
-	"status_bar_visible": true
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
 }

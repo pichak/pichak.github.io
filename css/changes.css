@@ -196,31 +196,6 @@ a:hover i.ico-position-onlinemarketer, a.selected i.ico-position-onlinemarketer{
 
 
 
-div.people{
-    display: inline-block;
-    width: 280px;
-    height: 390px;
-    vertical-align: top;
-}
-div.people img{
-    width: 200px;
-    height: 200px;
-    margin-left: 40px;
-    margin-right: 40px;
-    float: left;
-}
-div.people h1{
-    float: left;
-    width: 100%;
-}
-div.people div.you{
-    width: 200px;
-    height: 200px;
-    margin-left: 40px;
-    float: left;
-    border: 1px solid #9E9E9E;
-    border-radius: 100px;
-}
 
 .appicon{
     margin: 0 auto;
