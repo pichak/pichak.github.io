@@ -65,11 +65,11 @@ i[class^="ico-"]{
     border-top: 1px solid #DDD;
 }
 
-#home-products .container{
+#products .container{
     padding: 2em 0 3em 0;
 }
 
-#home-products .container h1{
+#products .container h1{
     color: rgba(0,0,0,0.54);
 }
 

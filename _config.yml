@@ -25,7 +25,7 @@ navigation:
   url:   /
   alt: "About Pichak Co."
 - title: Products
-  url:   /products
+  url:   '/#products'
   alt: "See our products"
 - title: People
   url: /people
