@@ -75,160 +75,43 @@ title: jobs
         </div>
     </div>
 </section>
-<section id="position-marketingleader" class="position">
+{% for p in site.data.positions %}
+{% assign position = p[1] %}
+<section id="position-{{ p[0] }}" class="position">
     <div class="container">
         <div class="row">
             <div class="col-md-offset-1 col-md-10">
-                <h1>Marketing Leader</h1>
+                <h1>{{position.title}}</h1>
                 <article>
-                <p>
-                    Love of numbers and analytical thinking is a must. We simply need an analytical ninja. These days, we are so fast that you cannot imagine; we have more than 1 million Monthly Active Users and we’ve aimed to reach up to 20 million in one year. As an international company and working in a global market, we think big and we need someone who thinks even bigger; In our theory, anything is possible. So if...
-                </p>
+                <p>{{position.desc}}</p>
                 </article>
             </div>
         </div>
         <div class="row">
-            <div class="col-md-offset-2 col-md-8">
+            <div class="col-md-offset-1 col-md-10">
                 <h2>Skills &amp; Requierements</h2>
                 <ul>
+                {% for i in position.skills %}
                     <li>
-                    You are passionate about getting involved in products which have millions of international users.
+                    {{i.desc}}
                     </li>
-                    <li>
-                    You are a fast-learner and eager to learn new things.
-                    </li>
-                    <li>
-                    You have a strong level of communicating in English, or willing to level up your English Language.
-                    </li>
+                {% endfor %}
                 </ul>
             </div>
-            <div class="col-md-offset-2 col-md-8">
+            <div class="col-md-offset-1 col-md-10">
                 <h2>Desires</h2>
                 <ul>
+                {% for i in position.desires %}
                     <li>
-                    You can do analysis on a spreadsheet and you love it
+                    {{i.desc}}
                     </li>
-                    <li>
-                    You can communicate and understand users’ needs
-                    </li>
-                    <li>
-                    You have online marketing knowledge and you are familiar with social media channels it
-                    </li>
-                    <li>
-                    You have a good technical insight
-                    </li>
-                    <li>
-                    You can analyze current internet trends and come up with new and creative ideas to interest more users
-                    </li>
-                    </ul>
+                {% endfor %}
                 </ul>
             </div>
         </div>
         <div class="row position-apply">
             <div class="col-md-offset-1 col-md-10">
-                <h3>Then this role is for you! Send us your CV and cover letter to....</h3>
-                <p>We value fast-learning above resume</p>
-                <p>
-                    <a class="btn btn-success" href="mailto:jobs@pichak.co?subject=application" role="button">jobs@pichak.co</a>
-                </p>
-                <p>
-                    <a class="btn btn-default" href="mailto:jobs@pichak.co?subject=Get%20in%20touch" role="button">Maybe Later</a>
-                </p>
-            </div>
-        </div>
-    </div>
-</section>
-<section id="position-android" class="position">
-    <div class="container">
-        <div class="row">
-            <div class="col-md-offset-1 col-md-10">
-                <h1>Software Engineer</h1>
-                <article>
-                <p>
-                    We are always looking for a natural born programmer who is eager to learn a new language and able to master it in a short period of time, someone who has a creative mind to find out solutions for complex problems. We need a programmer which is an expert on a platform and is eager to learn android development.  
-                </p>
-                </article>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-md-offset-2 col-md-8">
-                <h2>Skills &amp; Requierements</h2>
-                <ul>
-                    <li>
-                    You are passionate about getting involved in products which have millions of international users.
-                    </li>
-                    <li>
-                    You are a fast-learner and eager to learn new things.
-                    </li>
-                    <li>
-                    You have a strong level of communicating in English, or willing to level up your English Language.
-                    </li>
-                </ul>
-            </div>
-            <div class="col-md-offset-2 col-md-8">
-                <h2>Desires</h2>
-                <ul>
-                    <li>You know how to design and code a modular application, whether it is a desktop or mobile phone application</li>
-                    <li>You have a strong background working with an OOP language like C-related languages or Java.</li>
-                    <li>You value both UI and business logic equally</li>
-                    <li>You are an expert in using tools like GIT, a package manager and open source projects on a daily basis </li>
-                </ul>
-            </div>
-        </div>
-        <div class="row position-apply">
-            <div class="col-md-offset-1 col-md-10">
-                <h3>If you believe you deserve more and want to work with an international team, we welcome you. We build high-quality applications with millions of users from every corner of the world. We would like you to join us.</h3>
-                <p>We value fast-learning above resume</p>
-                <p>
-                    <a class="btn btn-success" href="mailto:jobs@pichak.co?subject=application" role="button">jobs@pichak.co</a>
-                </p>
-                <p>
-                    <a class="btn btn-default" href="mailto:jobs@pichak.co?subject=Get%20in%20touch" role="button">Maybe Later</a>
-                </p>
-            </div>
-        </div>
-    </div>
-</section>
-<section id="position-designer" class="position">
-    <div class="container">
-        <div class="row">
-            <div class="col-md-offset-1 col-md-10">
-                <h1>UI Designer</h1>
-                <article>
-                <p>
-                    This position will be filled with someone who is eager to design simple, human-centered products. The UI designer, will be responsible for the definition, design, user flow, user interface and all together, the user experience. We have a small creative design team and we are passionate to add a more creative people to our small amazing team.
-                </p>
-                </article>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-md-offset-2 col-md-8">
-                <h2>Skills &amp; Requierements</h2>
-                <ul>
-                    <li>
-                    You are passionate about getting involved in products which have millions of international users.
-                    </li>
-                    <li>
-                    You are a fast-learner and eager to learn new things.
-                    </li>
-                    <li>
-                    You have a strong level of communicating in English, or willing to level up your English Language.
-                    </li>
-                </ul>
-            </div>
-            <div class="col-md-offset-2 col-md-8">
-                <h2>Desires</h2>
-                <ul>
-                    <li>You are an innovative designer with a strong sense of creating clean and usable design</li>
-                    <li>You should have an insight into UI principles and should be familiar with all Desktop, Web and Mobile UX/UI Design</li>
-                    <li>You are proficient with Adobe Photoshop and Adobe Illustrator</li>
-                    <li>You should have the ability to collaborate with a cross-functional team</li>
-                </ul>
-            </div>
-        </div>
-        <div class="row position-apply">
-            <div class="col-md-offset-1 col-md-10">
-                <h3>If you are passionate in creating interfaces &amp; experience to make a difference in the lives of millions of users, we would like you to join us.</h3>
+                <h3>{{ position.motivation }}</h3>
                 <p>We value fast-learning above resume</p>
                 <p>
                     <a class="btn btn-success" href="mailto:jobs@pichak.co?subject=Application" role="button">jobs@pichak.co</a>
@@ -240,262 +123,4 @@ title: jobs
         </div>
     </div>
 </section>
-<section id="position-web" class="position">
-    <div class="container">
-        <div class="row">
-            <div class="col-md-offset-1 col-md-10">
-                <h1>Front-end Developer</h1>
-                <article>
-                <p>
-                    We are looking for a natural born programmer, someone who has loved programming from day one and you know you are going to love it forever. A person which is up-to-date with new online technology and all the new trends, curious about open source community and on the other hand and has a good sense of art and creativity with an excellent proficiency of CSS.
-                </p>
-                </article>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-md-offset-2 col-md-8">
-                <h2>Skills &amp; Requierements</h2>
-                <ul>
-                    <li>
-                    You are passionate about getting involved in products which have millions of international users.
-                    </li>
-                    <li>
-                    You are a fast-learner and eager to learn new things.
-                    </li>
-                    <li>
-                    You have a strong level of communicating in English, or willing to level up your English Language.
-                    </li>
-                </ul>
-            </div>
-            <div class="col-md-offset-2 col-md-8">
-                <h2>Desires</h2>
-                <ul>
-                    <li>You usually use developers Tools and check how a website implemented an interesting feature.</li>
-                    <li>You have a strong background in HTML/CSS.</li>
-                    <li>You know how to code a neat and readable web application in JavaScript.</li>
-                    <li>You are comfortable using tools like GIT!</li>
-                </ul>
-            </div>
-        </div>
-        <div class="row position-apply">
-            <div class="col-md-offset-1 col-md-10">
-                <h3>Our landing pages get thousands of visits every day around the globe. Your job is to provide good experience for visitors and attract them through eye-catching and interesting web pages and applications.</h3>
-                <p>We value fast-learning above resume</p>
-                <p>
-                    <a class="btn btn-success" href="mailto:jobs@pichak.co?subject=application" role="button">jobs@pichak.co</a>
-                </p>
-                <p>
-                    <a class="btn btn-default" href="mailto:jobs@pichak.co?subject=Get%20in%20touch" role="button">Maybe Later</a>
-                </p>
-            </div>
-        </div>
-    </div>
-</section>
-<section id="position-crm" class="position">
-    <div class="container">
-        <div class="row">
-            <div class="col-md-offset-1 col-md-10">
-                <h1>Customer Support</h1>
-                <article>
-                <p>
-                    At Pichak, our users are at the center of everything we do. This person will be in charge of making them happy and turning typical users into loyal ones. We think solving people’s problems is one of the biggest pleasures in the world. We have a large community of users, so we have a huge number of emails on a daily basis. Your main job will be responding to our users and solving their problems in the kindest manner.
-                </p>
-                </article>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-md-offset-2 col-md-8">
-                <h2>Skills &amp; Requierements</h2>
-                <ul>
-                    <li>
-                    You are passionate about getting involved in products which have millions of international users.
-                    </li>
-                    <li>
-                    You are a fast-learner and eager to learn new things.
-                    </li>
-                    <li>
-                    You have a strong level of communicating in English, or willing to level up your English Language.
-                    </li>
-                </ul>
-            </div>
-            <div class="col-md-offset-2 col-md-8">
-                <h2>Desires</h2>
-                <ul>
-                    <li>You are a patient person, and doing routine jobs daily doesn't bother you.</li>
-                    <li>You need to have great English language skills and excellent command in writing.</li>
-                    <li>You have a good time management skill</li>
-                    <li>You have a basic knowledge about computer</li>
-                </ul>
-            </div>
-        </div>
-        <div class="row position-apply">
-            <div class="col-md-offset-1 col-md-10">
-                <h3>We are a small happy team that aims to keep a smile on our customers’ faces and keep them happy.</h3>
-                <p>We value fast-learning above resume</p>
-                <p>
-                    <a class="btn btn-success" href="mailto:jobs@pichak.co?subject=application" role="button">jobs@pichak.co</a>
-                </p>
-                <p>
-                    <a class="btn btn-default" href="mailto:jobs@pichak.co?subject=Get%20in%20touch" role="button">Maybe Later</a>
-                </p>
-            </div>
-        </div>
-    </div>
-</section>
-<section id="position-devops" class="position">
-    <div class="container">
-        <div class="row">
-            <div class="col-md-offset-1 col-md-10">
-                <h1>Dev Ops</h1>
-                <article>
-                <p>
-                   If you have stopped using Windows several years ago and switched to Linux and now you feel free, then you know how to grab, compile and debug open source projects, you are what we are looking for.
-                </p>
-                </article>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-md-offset-2 col-md-8">
-                <h2>Skills &amp; Requierements</h2>
-                <ul>
-                    <li>
-                    You are passionate about getting involved in products which have millions of international users.
-                    </li>
-                    <li>
-                    You are a fast-learner and eager to learn new things.
-                    </li>
-                    <li>
-                    You have a strong level of communicating in English, or willing to level up your English Language.
-                    </li>
-                </ul>
-            </div>
-            <div class="col-md-offset-2 col-md-8">
-                <h2>Desires</h2>
-                <ul>
-                    <li>You know how to configure network settings on a linux box with tools like ip and iptables</li>
-                    <li>You have enough knowledge to manage a cluster.</li>
-                    <li>You are an expert in at least two of these scripting languages: Bash, Ruby, Python, Perl, Go.</li>
-                    <li>You are familiar with these terms: VPS, Docker, REST API, Redis, Memcached, etc.</li>
-                    <li>You have a deep knowledge of TCP/IP protocols.</li>
-                    <li>You have the ability to handle the stress of high loads of work to test the functionality of the system</li>
-                </ul>
-            </div>
-        </div>
-        <div class="row position-apply">
-            <div class="col-md-offset-1 col-md-10">
-                <h3>At Pichak, we are working with giants in the cloud like Amazon and Linode; we have to handle a huge amount of requests per minute. It will be a great opportunity for you to use your knowledge and build something useful for everyone around the world. </h3>
-                <p>We value fast-learning above resume</p>
-                <p>
-                    <a class="btn btn-success" href="mailto:jobs@pichak.co?subject=application" role="button">jobs@pichak.co</a>
-                </p>
-                <p>
-                    <a class="btn btn-default" href="mailto:jobs@pichak.co?subject=Get%20in%20touch" role="button">Maybe Later</a>
-                </p>
-            </div>
-        </div>
-    </div>
-</section>
-<section id="position-copywriter" class="position">
-    <div class="container">
-        <div class="row">
-            <div class="col-md-offset-1 col-md-10">
-                <h1>Content specialist</h1>
-                <article>
-                <p>
-                    At Pichak, our users are at the center of everything we do. We need to make sure that all of our users (loyal and new) know everything they need about our great products as it continues to evolve.
-                    We are looking for a brilliant Content specialist to join our Marketing team to work across our business to make sure that we meet our requirements happens.
-                </p>
-                </article>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-md-offset-2 col-md-8">
-                <h2>Skills &amp; Requierements</h2>
-                <ul>
-                    <li>
-                    You are passionate about getting involved in products which have millions of international users.
-                    </li>
-                    <li>
-                    You are a fast-learner and eager to learn new things.
-                    </li>
-                    <li>
-                    You have a strong level of communicating in English, or willing to level up your English Language.
-                    </li>
-                </ul>
-            </div>
-            <div class="col-md-offset-2 col-md-8">
-                <h2>Desires</h2>
-                <ul>
-                    <li>You are a blogger, or have experience in blogging or journalism</li>
-                    <li>You have the ability to create a good content and then measure its performance.</li>
-                    <li>You have a basic knowledge about SEO or you are eager to learn </li>
-                    <li>You can analyze user behavior data and improve your contents based on metrics.</li>
-                    <li>You have excellent command in both spoken and written English</li>
-                </ul>
-            </div>
-        </div>
-        <div class="row position-apply">
-            <div class="col-md-offset-1 col-md-10">
-                <h3>Your main job in Pichak will be communicating with users through our blog, but you must have enough confidence and ability to talk with major media channels and maintain previous connections with clients as we did before. You will be working with support and product team helping them to keep all contents like website contents, Knowledge base, FAQs, in-app contents, tutorial and social networks fresh and accurate.</h3>
-                <p>We value fast-learning above resume</p>
-                <p>
-                    <a class="btn btn-success" href="mailto:jobs@pichak.co?subject=application" role="button">jobs@pichak.co</a>
-                </p>
-                <p>
-                    <a class="btn btn-default" href="mailto:jobs@pichak.co?subject=Get%20in%20touch" role="button">Maybe Later</a>
-                </p>
-            </div>
-        </div>
-    </div>
-</section>
-<section id="position-onlinemarketer" class="position">
-    <div class="container">
-        <div class="row">
-            <div class="col-md-offset-1 col-md-10">
-                <h1>Online Marketer</h1>
-                <article>
-                <p>
-                    At Pichak we are looking for someone that has experience in digital marketing. They need to be familiar with Ads marketing, media coverage, SEO tactics. The love to apply new user acquisition methods and analyze the results is a must. As online marketer you need to have a good understanding of user behavior; you need an analytical approach to face all of users. Our products are everywhere, from web apps to Smartphone applications, so you must be curious to extend your knowledge about marketing in all available platforms.So if…
-                </p>
-                </article>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-md-offset-2 col-md-8">
-                <h2>Skills &amp; Requierements</h2>
-                <ul>
-                    <li>
-                    You are passionate about getting involved in products which have millions of international users.
-                    </li>
-                    <li>
-                    You are a fast-learner and eager to learn new things.
-                    </li>
-                    <li>
-                    You have a strong level of communicating in English, or willing to level up your English Language.
-                    </li>
-                </ul>
-            </div>
-            <div class="col-md-offset-2 col-md-8">
-                <h2>Desires</h2>
-                <ul>
-                    <li>You have a good empathy to run a successful A/B testing</li>
-                    <li>You are an SEO specialist, familiar with Google analytics and Google Webmaster Tools.</li>
-                    <li>You are able to run a significant marketing campaign</li>
-                    <li>You are talented enough to gain big results with small effort</li>
-                </ul>
-            </div>
-        </div>
-        <div class="row position-apply">
-            <div class="col-md-offset-1 col-md-10">
-                <h3>We have a lot of experience in marketing. There’s a lot we can achieve together. We can share our experiences and use your creativity to build new and interesting marketing campaigns for our amazing products</h3>
-                <p>We value fast-learning above resume</p>
-                <p>
-                    <a class="btn btn-success" href="mailto:jobs@pichak.co?subject=application" role="button">jobs@pichak.co</a>
-                </p>
-                <p>
-                    <a class="btn btn-default" href="mailto:jobs@pichak.co?subject=Get%20in%20touch" role="button">Maybe Later</a>
-                </p>
-            </div>
-        </div>
-    </div>
-</section>
+{% endfor %}
