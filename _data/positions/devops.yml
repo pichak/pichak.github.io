@@ -1,9 +1,5 @@
 title: Dev Ops
 desc: If you have stopped using Windows several years ago and switched to Linux and now you feel free, then you know how to grab, compile and debug open source projects, you are what we are looking for.
-skills:
-- desc: You are passionate about getting involved in products which have millions of international users.
-- desc: You are a fast-learner and eager to learn new things.
-- desc: You have a strong level of communicating in English, or willing to level up your English Language.
 desires:
 - desc: You know how to configure network settings on a linux box with tools like ip and iptables
 - desc: You have enough knowledge to manage a cluster.

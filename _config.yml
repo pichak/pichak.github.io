@@ -27,8 +27,8 @@ navigation:
 - title: Products
   url:   '/#products'
   alt: "See our products"
-- title: People
-  url: /people
+- title: Team
+  url: /team
   alt: ""
 - title: Jobs
   url: /jobs

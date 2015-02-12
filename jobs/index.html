@@ -7,13 +7,12 @@ title: jobs
             <div class="col-md-offset-1 col-md-10">
                 <div class="pichak-logo">
                     <!-- logo -->
-                    <h1>Careers at Pichak</h1>
+                    <h1>Work at Pichak</h1>
                 </div>
                 <article>
-                    <p>
-                    We are a startup in global market. We are a team of 20 talented and friendly people. We believed we could do business internationally and now we’ve proved it by millions of users all around the world. We have some famous products and 20 high-profile people behind them. In Pichak we grow our skills, our users and our money, since here, “The growth matters!”
-                    We have a technical friendly team, and a culture of honesty in our company, and we have always a passion to add other talented and friendly people to our team. Would you like to be the next one?
-                    </p>
+                    <p>Pichak is an international startup company made up of 20 talented and friendly individuals. We believed that we could develop products that could be used internationally and now we’ve proved this by <strong>creating well known products that millions of users</strong> are familiar with, all over the world. At Pichak, we grew our skills, our users and our money because <strong>“Growth matters!”</strong>.</p>
+                    <p>Pichak is a symbol of growth, so in order to reach our motto; we realized that we have to grow our team.</p>
+                    <p>We are friends and colleagues with a great <strong>culture of honesty</strong> in our company. We are looking to add amazing people to this group. Would you like to be the next one?</p>
                 </article>
             </div>
         </div>
@@ -30,47 +29,14 @@ title: jobs
         </div>
         <div class="row">
             <div class="col-md-offset-0 col-md-12 text-center">
+            {% for p in site.data.positions %}
+            {% assign position = p[1] %}
                 <div class="positions">
-                    <a href="#position-marketingleader">
-                        <i class="ico-position-marketingleader"></i><h2>Marketing Leader</h2>
+                    <a href="#position-{{ p[0] }}">
+                        <i class="ico-position-{{ p[0] }}"></i><h2>{{position.title}}</h2>
                     </a>
                 </div>
-                <div class="positions">
-                    <a href="#position-android">
-                        <i class="ico-position-android"></i><h2>Software Engineer
-                        </h2>
-                    </a>
-                </div>
-                <div class="positions">
-                    <a href="#position-designer">
-                        <i class="ico-position-designer"></i><h2>UI Designer</h2>
-                    </a>
-                </div>
-                <div class="positions">
-                    <a href="#position-web">
-                        <i class="ico-position-web"></i><h2>Front-End Developer</h2>
-                    </a>
-                </div>
-                <div class="positions">
-                    <a href="#position-crm">
-                        <i class="ico-position-crm"></i><h2>Customer Support</h2>
-                    </a>
-                </div>
-                <div class="positions">
-                    <a href="#position-devops">
-                        <i class="ico-position-devops"></i><h2>Dev Ops</h2>
-                    </a>
-                </div>
-                <div class="positions">
-                    <a href="#position-copywriter">
-                        <i class="ico-position-copywriter"></i><h2>Content specialist</h2>
-                    </a>
-                </div>
-                <div class="positions">
-                    <a href="#position-onlinemarketer">
-                        <i class="ico-position-onlinemarketer"></i><h2>Online Marketer</h2>
-                    </a>
-                </div>
+            {% endfor %}
             </div>
         </div>
     </div>
@@ -91,7 +57,7 @@ title: jobs
             <div class="col-md-offset-1 col-md-10">
                 <h2>Skills &amp; Requierements</h2>
                 <ul>
-                {% for i in position.skills %}
+                {% for i in site.data.skills %}
                     <li>
                     {{i.desc}}
                     </li>

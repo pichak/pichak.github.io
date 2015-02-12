@@ -7,21 +7,29 @@ title: people
             <div class="col-md-offset-1 col-md-10">
                 <div class="people-header">
                     <!--img class="people-img" src="/img/pichak-team.png"/-->
-                    <h1 class="pichak">People at Pichak</h1>
+                    <h1 class="pichak">Pichak Team</h1>
                 </div>
-                <p>Everyone who works on Pichak has a unique purpose, “the growth”. At Pichak, we grow our users, money, experience and our skills. these are the solutions to compete in global market and to be able to acquiesce users around the world. 
+                <p>Everyone who works at Pichak has the unique purpose of “growth”. At Pichak we increase our users, money, experience and our skills. These are the solutions to compete in a global market and to be able to attract users around the world.
                 </p>
-                <p>Here we are a family, we are friendly enough to understand each others, and talented enough to have a lot of things to teach each others. We are careful about hiring, and hand-picking new teammates. This is the magic behind our friendly enviroment.
+                <p>Here we are a family, we are friendly enough to understand each other, and talented enough to have a lot of things to teach each other.
+                </p>
+                <p>We are careful about hiring, and hand-picking new teammates. This is the magic behind our friendly environment.
                 </p>
             </div>
         </div>
     </div>
 </section>
 <section id="people-people">
-    <div class="container">
+    <div class="container no-top-border">
+        <div class="row">
+            <div class="col-md-12 text-center">
+                <header class="lined-header">
+                    <h1>Meet the team behind Pichak’s products</h1>
+                </header>
+            </div>
+        </div>
         <div class="row">
             <div class="col-md-offset-1 col-md-10 text-center">
-                <h1>Meet the team that makes Pichak, the Pichak now!</h1>
                 {% for p in site.people %}
                 <div class="people">
                     <img src="/img/people/{{p.title | downcase | replace: ' ','-'}}.png"><h3>{{p.title}}</h3>
