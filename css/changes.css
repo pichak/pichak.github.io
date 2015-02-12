@@ -173,16 +173,3 @@ a:hover i.ico-position-onlinemarketer, a.selected i.ico-position-onlinemarketer{
     width: 200px;
     display: block;
 }
-
-/* ==========================================================================
-   Footer
-   ========================================================================== */
-#footer{
-    color: #DDD;
-    text-align: center;
-    font-size: 0.666em;
-    padding-top: 3em;
-}
-#footer .border-top{
-    border-top: 1px solid #DDD;
-}

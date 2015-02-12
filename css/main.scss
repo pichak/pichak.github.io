@@ -193,3 +193,14 @@ p.motivation {
     font-size: 1.1em;
     line-height: 1.4em;
 }
+
+#footer{
+    color: $gray;
+    text-align: center;
+    font-size: 0.666em;
+    padding-top: 3em;
+
+    .border-top {
+        border-top: 1px solid #DDD;
+    }
+}
