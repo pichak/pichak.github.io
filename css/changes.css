@@ -7,7 +7,7 @@ header.lined-header{
     margin: 0 0 2em 0;
     padding: 3em 0 3em 0;
 }
-header.lined-header h1{
+header.lined-header h1,header.lined-header h2{
     display: inline-block;
     margin: 0;
     background-color: #fff;
@@ -170,6 +170,26 @@ a:hover i.ico-position-onlinemarketer, a.selected i.ico-position-onlinemarketer{
 
 .appicon{
     margin: 0 auto;
-    width: 200px;
+    width: 204px;
     display: block;
+}
+
+div.appicon {
+    height:204px;
+    overflow: hidden;
+    position: relative;
+}
+div.appicon img {
+    position:absolute;
+    left:0;
+    -webkit-transition: opacity 0.2s ease-in-out;
+    -moz-transition: opacity 0.2s ease-in-out;
+    -o-transition: opacity 0.2s ease-in-out;
+    transition: opacity 0.2s ease-in-out;
+}
+div.appicon img.top {
+    background-color:#fff;
+}
+div.appicon img.top:hover {
+    opacity: 0;
 }

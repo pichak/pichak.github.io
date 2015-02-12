@@ -68,6 +68,10 @@ a:focus {
         box-shadow:  0px 0px 0px rgba(0,0,0,0.1);
     }
 
+    &.btn-large {
+        width: inherit;
+    }
+
     &.btn-success {
         background-color: $brand-primary;
         border: 1px solid #999;
@@ -90,6 +94,18 @@ a:focus {
             box-shadow: none;
             background-color: none;
         }
+    }
+
+    &.btn-apple-store {
+        background: url('../img/apple-store.svg') no-repeat;
+        font-size: 1px;
+        text-indent: -1000px;
+        overflow: hiddent;
+        width: 246px;
+        min-width: 246px;
+        height: 86px;
+        box-shadow: none;
+        border: none;
     }
 }
 
@@ -119,7 +135,7 @@ a:focus {
     }
     p {
         color: #gray-dark;
-        padding: 0.5em 0 .5em 0;
+        padding: 0.2em 0 0;
         text-align: justify;
     }
 }
