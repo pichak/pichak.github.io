@@ -92,26 +92,17 @@ section.position{
 section.position .container{
     border-top: none;
 }
+
 .position-apply{
     text-align: center;
+    font-size: 1em;
 }
-.position-apply p{
-    font-size: 0.9em;
-}
-.position-apply .btn{
-    min-width: 300px;
-}
+
 .position h2{
     font-family: 'Noto Serif',serif;
     font-size: 1.1em;
     font-style: italic;
     color: rgba(0,0,0,0.54);
-}
-.position-apply h3{
-    font-family: 'Noto Serif',serif;
-    padding: 2em 0 3em 0;
-    font-size: 1.1em;
-    line-height: 1.4em;
 }
 .position ul > li{
     color: rgba(0,0,0,0.54);
