@@ -96,7 +96,7 @@ section.position .container{
     text-align: center;
 }
 .position-apply p{
-    font-size: 0.7em;
+    font-size: 0.9em;
 }
 .position-apply .btn{
     min-width: 300px;
@@ -177,15 +177,11 @@ a:hover i.ico-position-onlinemarketer, a.selected i.ico-position-onlinemarketer{
     background-position: -423px -284px;
 }
 
-
-
-
 .appicon{
     margin: 0 auto;
     width: 200px;
     display: block;
 }
-
 
 /* ==========================================================================
    Footer
