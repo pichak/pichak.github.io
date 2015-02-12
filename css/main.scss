@@ -32,11 +32,16 @@
 
 h1,h2,h3,h4 {
     text-align: center;
+    margin-bottom: $line-height-computed;
 }
 
 .navbar-nav > li > a:hover,.navbar-nav > li > a:focus {
     background-color: $brand-primary;
     color: #000;
+}
+
+.morespaceatbottom {
+    margin-bottom:3em;
 }
 
 .btn {
@@ -85,7 +90,7 @@ h1,h2,h3,h4 {
 
         h2 {
             padding-top: 0.5em;
-            font-size: floor(($font-size-base * 1))
+            font-size: $font-size-large;// floor(($font-size-base * 1))
         }
     }
 
@@ -103,7 +108,7 @@ div.people{
     display: inline-block;
     width: 7em;
     height: 7em;
-    margin:0 0.3em 3em 0.3em;
+    margin:0 0.8em 3em;
     vertical-align: top;
     display:inline-block;
 
