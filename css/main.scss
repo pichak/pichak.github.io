@@ -98,7 +98,7 @@ a:focus {
     .pichak-logo {
         line-height: 0.3;
         text-align: center;
-        margin: 4em 0 0.5px 0;
+        margin: 3em 0 0.5px 0;
 
         h1 {
            font-weight: bold;
@@ -111,14 +111,16 @@ a:focus {
         }
     }
 
-    article {
-        margin: 2.5em 0 5em 0em;
+}
 
-        p {
-            color: #gray-dark;
-            padding: 0.5em 0 .5em 0;
-            text-align: justify;
-        }
+#intro {
+    article {
+        margin: 2.5em 0 0;
+    }
+    p {
+        color: #gray-dark;
+        padding: 0.5em 0 .5em 0;
+        text-align: justify;
     }
 }
 
