@@ -86,23 +86,6 @@ i[class^="ico-"]{
     text-align: center;
 }
 
-div.positions{
-    display: inline-block;
-    text-align: center;
-    width: 160px;
-    height: 200px;
-}
-.positions h2{
-    font-size: 0.6em;
-    margin: 10px 0 0 0;
-}
-.positions a{
-    color: inherit;
-    display: inline-block;
-    width: 100%;
-    height: 100%;
-}
-
 section.position{
     display: none;
 }
