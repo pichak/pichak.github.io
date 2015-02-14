@@ -45,7 +45,7 @@ a:focus {
         margin-top: 30px;
     }
 
-    @media (max-width: $screen-xs-max) {
+    @media (max-width: $screen-sm-min) {
         >.container {
             margin-top:0px;
         }
