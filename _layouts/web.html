@@ -19,16 +19,17 @@
         <!--[if lt IE 8]>
             <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
-
-        <div id="main-wrapper">
-            <header id="head" role="banner" calss="navbar navbar-static-top bs-docs-nav">
-            {% include navigation.html %}
-            </header>
-            {{content}}
-            <footer id="footer">
-            {% include footer.html %}
-            </footer>
-        </div>
+        <main id="content" role="main">
+            <!--div id="main-wrapper"-->
+                <header id="head" role="banner" calss="navbar navbar-static-top bs-docs-nav">
+                {% include navigation.html %}
+                </header>
+                {{content}}
+                <footer id="footer">
+                {% include footer.html %}
+                </footer>
+            <!--/div-->
+        </main>
         {% include analytics.html %}
         {% if page.title == 'jobs' %}
         {% include jobs.html %}
