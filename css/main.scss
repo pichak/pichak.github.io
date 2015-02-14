@@ -65,6 +65,13 @@ a:focus {
     margin-bottom:0;
 }
 
+@media (min-width: $screen-sm-min) and (max-width: $screen-sm-max) {
+    .navbar-header {
+        width: 50px;
+        overflow: hidden;
+    }
+}
+
 .navbar-nav > li > a:hover,.navbar-nav > li > a:focus {
     background-color: $brand-primary;
 }
