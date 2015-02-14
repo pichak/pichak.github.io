@@ -1,4 +1,4 @@
-<div class="container morespaceatbottom">
+<!---div class="container morespaceatbottom">
     <div class="navbar-header">
         <button data-target=".bs-navbar-collapse" data-toggle="collapse" type="button" class="navbar-toggle collapsed">
             <span class="sr-only">Toggle navigation</span>
@@ -15,4 +15,28 @@
             {% endfor %}
         </ul>
     </nav>
+</div-->
+
+<div class="container morespaceatbottom">
+<nav class="navbar navbar-default">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <h1><a class="navbar-brand" href="../"><img src="/img/header-logo.svg" alt="Pichak" width="120px" height="40px"/></a></h1>
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav navbar-right">
+        {% for p in site.navigation %}
+            <li {% if p.url == url or (p.url == '/' and url == '') %}class="active"{% endif %}><a href="{{ p.url }}" title="{{ p.alt }}">{{ p.title }}</a></li>
+        {% endfor %}
+      </ul>
+    </div><!-- /.navbar-collapse -->
+</nav>
 </div>

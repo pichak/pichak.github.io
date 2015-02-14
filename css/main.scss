@@ -39,9 +39,12 @@ a:focus {
     outline: 0;
 }
 
+.navbar {
+    margin-bottom:0;
+}
+
 .navbar-nav > li > a:hover,.navbar-nav > li > a:focus {
     background-color: $brand-primary;
-    color: #000;
 }
 
 .morespaceatbottom {
