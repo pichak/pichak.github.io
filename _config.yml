@@ -39,22 +39,32 @@ navigation:
 
 people:
 - title: Hasan Aghdasi
-- title: Alireza Arabi
+- title: Alireza Borzabadi
 - title: Vahid Ashrafian
 - title: Faezeh Attarzadeh
-- title: Arash Badie Modiri
 - title: Ali Ehsanfar
 - title: Sepideh Gheysar
 - title: Mojtaba Khodabandeh
 - title: Kimia Maleki
 - title: Morteza Milani
-- title: Amir Nourian
-- title: Ali Pourhadi
-- title: Mohammad M. Ramezanpour
 - title: Hamid Rezazadeh
-- title: Sadegh Saati
 - title: Shadi Sabzali
 - title: Amir Sabbaghi
+- title: Mohsen Damoukh
+- title: Mahdi Dibaiee
+- title: Zahra Esmaelipour
+- title: Ali Fattaholmanan
+- title: Mohamad Gheysariha
+- title: Shayan Hashemi
+- title: Alireza Madani
+- title: Behnam Pishali
+- title: Fahime Ghasemi
+- title: Sama Ghoba
+- title: Farzaneh Gholipour
+- title: Ehsan Rahimi
+- title: Iman Rahmatizadeh
+- title: Iman Roomana
+- title: Hasan Tabatabaie
 
 gems:
 - bootstrap-sass
